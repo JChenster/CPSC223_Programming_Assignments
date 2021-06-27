@@ -78,28 +78,3 @@ printFixed(long long number, char separator, char decimalPoint, unsigned int pre
     }
     // putchar('\n');
 }
-
-/*
-int main(){
-    printFixed(123456789, ',', '.', 0);
-    printFixed(123456789, ',', '.', 2);
-    printFixed(-123456789, ',', '.', 2);
-    printFixed(123456789, ',', '.', 12);
-    printFixed(-123456789, ',', '.', 12);
-    printf("True value of LLONG_MAX: %lld\n", LLONG_MAX);
-    for (int i = 0; i < 19; i++){
-        printf("Precision %d: ", i);
-        printFixed(LLONG_MAX, ',', '.', i);
-    }
-    printf("True value of LLONG_MIN: %lld\n", LLONG_MIN);
-    for (int i = 0; i < 19; i++){
-        printf("Precision %d: ", i);
-        printFixed(LLONG_MIN, ',', '.', i);
-    }
-    printf("True value of LLONG_MIN + 1: %lld\n", LLONG_MIN + 1);
-    for (int i = 0; i < 19; i++){
-        printf("Precision %d: ", i);
-        printFixed(LLONG_MIN + 1, ',', '.', i);
-    }
-}
-*/

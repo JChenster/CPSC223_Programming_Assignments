@@ -85,39 +85,7 @@ void runPancakeProgram(unsigned int *memory){
             default:
                 return;
         }
-
-        /*
-        printf("current i is %u\n", i);
-        for (int k = 0; k < 10; k++){
-            if (k == 9){
-                printf("%u\n", memory[k]);
-            }
-            else{
-                printf("%u ", memory[k]);
-            }
-        }
-        */
         
     }
 
 }
-
-/*
-int main(){
-    // print test 
-    //unsigned int m[3] = {1, 0, 3};
-
-    // flip test
-    //unsigned int m[] = {0, 3, 6, 6, 0, 1};
-    
-    // given test case
-    //unsigned int m[] = {2, 4, 0, 1, 1, 2, 4, 3, 3, 2, 4, 0, 2, 4, 2, 4};
-    
-    // counter5
-    // unsigned int m[] = {2,12,1,0,1,0,1,0,1,0,1,0,1,2,12,0,2,4,3,2,3,2,12,0,4,6,3,4,5,2,12,0,6,8,3,6,7,2,12,0,8,10,3,8,9,2,12,0,10,12,3,10,11,2,12,1,0,12,4};
-    
-    // print0
-    unsigned int m[] = {1,0,1,1,0,0,1,0,2,4};
-    runPancakeProgram(m);
-}
-*/
